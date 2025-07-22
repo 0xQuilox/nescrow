@@ -1,0 +1,24 @@
+{
+  "name": "nescrow",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Codigo ToS",
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node example.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.2",
+    "borsh": "^1.0.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "eslint": "^8.33.0",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
