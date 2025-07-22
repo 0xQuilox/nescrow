@@ -1,0 +1,39 @@
+[package]
+name = "nescrow"
+version = "0.1.0"
+edition = "2021"
+description = "A decentralized escrow system built on Solana"
+license = "MIT"
+repository = "https://github.com/yourusername/nescrow"
+readme = "../README.md"
+keywords = ["solana", "blockchain", "escrow", "defi"]
+categories = ["cryptography::cryptocurrencies"]
+publish = false
+
+[dependencies]
+solana-program = "2.2.1"
+borsh = "0.10.3"
+thiserror = "1.0.48"
+num-derive = "0.4"
+num-traits = "0.2"
+num_enum = "0.7.0"
+toml_edit = "=0.21.0"
+
+[dev-dependencies]
+solana-sdk = "2.2.1"
+solana-program-test = "2.2.1"
+solana-logger = "2.2.1"
+rand = "0.8.5"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+path = "./lib.rs"
+
+[profile.release]
+overflow-checks = true   # Enable integer overflow checks
+lto = "fat"              # Enable Link Time Optimization
+codegen-units = 1        # Maximize size reduction optimizations
+opt-level = 3            # Optimize for speed
+debug = false            # No debug symbols
+panic = "abort"          # Abort on panic
+strip = true             # Strip symbols from binary
