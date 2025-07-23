@@ -1,4 +1,4 @@
-#Replit Agent Prompts
+# Replit Agent Prompts
 
 ## 1. A solana web app with pure React frontend and rust backend called Nescrow which uses an escrow logic for wager of multiple use cases
 ### Response: I understand you want to build "Nescrow" - a Solana web application with an escrow system for wagering across multiple use cases. This involves blockchain integration with a React frontend and Rust backend.
