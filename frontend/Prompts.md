@@ -22,7 +22,7 @@ Create a foundation that could later be integrated with actual Solana smart cont
 The mock version would demonstrate how users interact with escrow contracts for wagering, even though the actual blockchain transactions would be simulated.
 
 Would you like me to proceed with this approach, or would you prefer to work on this project in a different development environment that supports Rust and Solana development?
-##2. Build only the react frontend part then, with sleek purple and gold design
+## 2. Build only the react frontend part then, with sleek purple and gold design
 ### Response: Perfect! I'll create a plan for the React frontend of Nescrow with a sleek purple and gold design. This will be a beautiful interface that showcases the escrow wagering functionality, even though the backend will be mocked for now.
 
 I've built a sleek React frontend for Nescrow - your Solana escrow wagering platform with purple and gold design. Here's what I've completed:
@@ -35,7 +35,7 @@ I've built a sleek React frontend for Nescrow - your Solana escrow wagering plat
 
 The app includes sample data so you can see how everything looks and works. How do you find the overall design and layout? Does the purple and gold theme match what you had in mind for the Nescrow platform?
 
-## The design is generic. Make it more user friendly and visually appealing
+## 3. The design is generic. Make it more user friendly and visually appealing
 ### Response: I've enhanced the visual design of your Nescrow application with several improvements:
 
 ✓ Enhanced step indicator with larger buttons and smooth animations
@@ -47,7 +47,7 @@ The app includes sample data so you can see how everything looks and works. How 
 
 The app now has a much more polished and user-friendly appearance with the purple and gold theme. How does everything look? Would you like me to make any adjustments to the design or add any other features?
 
-## Implement any other missing functionalities and make the code cleaner
+## 4. Implement any other missing functionalities and make the code cleaner
 ### Response: I've completed comprehensive enhancements to your Nescrow application:
 
 ✓ Added robust error handling with error boundaries throughout the app
